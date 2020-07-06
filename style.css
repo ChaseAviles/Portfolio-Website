@@ -675,7 +675,7 @@ pre {
 }
 
 .projects {
-  height: 101vh;
+  height: 150vh;
 }
 
 .project-card {
@@ -773,6 +773,10 @@ hr {
     grid-template-rows: repeat(5, 1fr);
   }
 
+  .projects {
+    height: 100vh;
+  }
+
   .p-title {
     grid-column: 5/9;
     grid-row: 2/3;
@@ -817,6 +821,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 1fr);
+  }
+
+  .projects {
+    height: 100vh;
   }
 
   .p-title {
